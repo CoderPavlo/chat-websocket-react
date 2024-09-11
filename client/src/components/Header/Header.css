@@ -1,0 +1,54 @@
+.header {
+    height: 60px;
+    border-bottom: 1px solid #eef2f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: calc(100% - 40px);
+    background-color: white;
+    z-index: 4000;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-text {
+    margin-left: 5px;
+    color: #1c88fc;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user-name {
+    max-width: 150px;
+}
+
+.log-out-button {
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    background-color: #0000;
+}

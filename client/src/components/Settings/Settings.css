@@ -1,0 +1,62 @@
+.settings-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+}
+
+.input-name {
+    width: 300px;
+    font-size: medium;
+}
+
+.input-status {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.input-helper {
+    color: red;
+    margin-top: 5px;
+}
+
+.button-login {
+    width: 250px;
+    padding-block: 5px;
+    font-size: larger;
+    background: #1c88fc;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-login:hover {
+    background: #4ca2fe;
+    cursor: pointer;
+}
+
+.avatars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+}
+
+@media (max-width: 600px) {
+    .avatars-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 колонки на мобільних пристроях */
+    }
+  }
